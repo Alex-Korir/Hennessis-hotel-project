@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.first-section{
+    background-color: linear-gradient(red, skyblue);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.heading{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading h1{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    color: grey;
+    letter-spacing: 3px;
+}
+span{
+    color: tomato;
+}
+.container{
+    padding: 20px;
+    width: 400px;
+    height: 280px;
+    border: 1px solid tomato;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+label{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+input[type=username], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="checkbox"]{
+    margin-right: 5px;
+    border: 1px solid skyblue;
+}
+.check{
+    font-weight: lighter;
+    color: grey;
+    font-size: 12px;
+}
+/* .sign{
+    position: absolute;
+    padding: 8px;
+    width: 100px;
+    right: 3%;
+    top: 8%;
+    font-size: 16px;
+    border: 1.8px solid tomato;
+    background: transparent;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transform: 1s;
+}
+.sign:hover{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 3px tomato;
+    background: orange;
+    color: white;
+} */
+/* .first-section p{
+    position: absolute;
+    padding: 8px;
+    width: 100px;
+    right: 3%;
+    top: 8%;
+    font-size: 16px;
+    border: 1.8px solid tomato;
+    background: transparent;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transform: 1s;
+    border: 1px solid red;
+} */

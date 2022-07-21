@@ -1,0 +1,88 @@
+.section-one{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,69,0,0.3)), url("../Images/pexels-vecislavas-popa-1743229.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-two{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.cont-cont{
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+.imgone, .form{
+    width: 48%;
+    height: 100%;
+}
+.imgone{
+    background-image: url("../Images/rception.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form{
+    height: 100%;
+    padding: 50px 40px;
+  }
+  .titlemessage{
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: var(--main-font);
+    font-weight: lighter;
+  }
+  .form p{
+      font-family: sans-serif;
+      margin-bottom: 12px;
+      color: grey;
+  }
+  .form .info{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .form .info input{
+      display: flex;
+      justify-content: center;
+  }
+  .form .info input,
+  .form .info textarea{ 
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+    font-family: sans-serif;
+  }
+  .form .info textarea{
+      height: 120px;
+  }
+  .form .info input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background: orangered;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
